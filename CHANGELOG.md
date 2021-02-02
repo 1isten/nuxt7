@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/nuxt-community/nuxt7/compare/v4.1.0...v4.2.0) (2021-01-17)
+
+
+### Features
+
+* add $nuxt.context ([#117](https://github.com/nuxt-community/nuxt7/issues/117)) ([46270b8](https://github.com/nuxt-community/nuxt7/commit/46270b83ffdfe18e0b5b1aca99fede102c6c04fc))
+
+## [4.1.0](https://github.com/nuxt-community/nuxt7/compare/v4.0.2...v4.1.0) (2021-01-17)
+
+
+### Features
+
+* use framework7-icon@3 ([4970314](https://github.com/nuxt-community/nuxt7/commit/4970314b95e00b9c8e29decc82ac48d160ab850a)), closes [#121](https://github.com/nuxt-community/nuxt7/issues/121)
+
+### [4.0.2](https://github.com/nuxt-community/nuxt7/compare/v4.0.1...v4.0.2) (2021-01-17)
+
+
+### Bug Fixes
+
+* cannot set property $nuxt of #<Vue> which has only a getter ([#116](https://github.com/nuxt-community/nuxt7/issues/116)) ([c4b6260](https://github.com/nuxt-community/nuxt7/commit/c4b6260e1c0e0d1c3c560ef7a64f5c32241b56ce))
+* multiple css provided by user ([#104](https://github.com/nuxt-community/nuxt7/issues/104)) ([a3a9003](https://github.com/nuxt-community/nuxt7/commit/a3a9003d2b8a43212a5871f2905240c8ee3534a5))
+
 ### [4.0.1](https://github.com/nuxt-community/nuxt7/compare/v4.0.0...v4.0.1) (2020-05-04)
 
 
