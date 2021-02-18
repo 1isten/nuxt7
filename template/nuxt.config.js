@@ -1,9 +1,10 @@
 module.exports = {
   ssr: false,
+  target: 'static',
 
   // Head configuration
   head: {
-    title: '<%= name %>',
+    title: 'Nuxt7 Project',
     meta: [
       {
         charset: 'utf-8',
@@ -38,7 +39,7 @@ module.exports = {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'icon.png'
+        href: '/icon.png'
       }
     ]
   },
