@@ -1,4 +1,6 @@
 module.exports = {
+  ssr: false,
+
   // Nuxt modules
   modules: [
     'nuxt7',

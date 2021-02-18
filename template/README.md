@@ -6,7 +6,7 @@
 
 ``` bash
 # Install dependencies
-<% if (context.npmClient === 'yarn') { %>yarn add<% } else { %>npm i<% } %> <%= name %>
+<% if (context.npmClient === 'yarn') { %>yarn install<% } else { %>npm install<% } %>
 
 # Serve with hot-reload at localhost:3000
 <%= context.npmClient %> run dev
