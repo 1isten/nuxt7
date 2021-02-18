@@ -1,10 +1,53 @@
 module.exports = {
   ssr: false,
 
+  // Head configuration
+  head: {
+    title: '<%= name %>',
+    meta: [
+      {
+        charset: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover'
+      },
+      {
+        name: 'mobile-web-app-capable',
+        content: 'yes'
+      },
+      {
+        name: 'apple-mobile-web-app-capable',
+        content: 'yes'
+      },
+      {
+        name: 'apple-mobile-web-app-status-bar-style',
+        content: 'black-translucent'
+      },
+      {
+        name: 'theme-color',
+        content: '#000'
+      },
+      {
+        hid: 'description',
+        name: '<%= name %>',
+        content: '<%= description %>'
+      }
+    ],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'icon.png'
+      }
+    ]
+  },
+
   // Nuxt modules
   modules: [
-    'nuxt7',
-    '@nuxtjs/pwa'
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    'nuxt7'
   ],
 
   // PWA manifest
