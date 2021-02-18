@@ -17,6 +17,7 @@
 
 # Generate static project
 <%= context.npmClient %> run generate
+<% if (context.npmClient === 'yarn') { %>yarn start --target static<% } else { %>npm start -- --target static<% } %>
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

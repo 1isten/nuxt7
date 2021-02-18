@@ -1,6 +1,5 @@
 module.exports = {
   ssr: false,
-  target: 'static',
 
   // Head configuration
   head: {
