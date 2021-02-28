@@ -23,9 +23,3 @@
     </f7-block>
   </f7-page>
 </template>
-
-<script>
-export default {
-
-}
-</script>

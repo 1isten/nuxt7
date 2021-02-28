@@ -29,6 +29,10 @@ module.exports = {
         content: '#000'
       },
       {
+        'http-equiv': 'Content-Security-Policy',
+        content: "default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:",
+      },
+      {
         hid: 'description',
         name: '<%= name %>',
         content: '<%= description %>'
@@ -59,6 +63,16 @@ module.exports = {
 
   // Framework7 Config
   framework7: {
+    app: {
+      theme: 'auto',
+    },
+    main: {
+      main: true,
+      pushState: true,
+      pushStateSeparator: '#',
+    },
+    mode: 'hash',
+    invertNav: false,
     // ...
   },
 
