@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         hid: 'description',
-        name: '<%= name %>',
+        name: 'description',
         content: '<%= description %>'
       }
     ],
