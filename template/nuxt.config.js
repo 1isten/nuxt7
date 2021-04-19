@@ -87,6 +87,11 @@ module.exports = {
     }
   },
 
+  // Generate configuration
+  generate: {
+    fallback: true,
+  },
+
   // Additional CSS configuration
   css: [
     'assets/app.css'
